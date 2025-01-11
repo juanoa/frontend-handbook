@@ -63,7 +63,7 @@ Conócelos para saber dar mejores soluciones a problemas que a primera vista par
 
 ## De vuelta a los orígenes
 
-La terminal, como ya veremos en el capítulo de [IV. Diseño](/chapters/04-diseno), es una de las interfaces más antiguas que existen. Una línea de comandos donde introducir órdenes y acciones con una serie de parámetros que se pueden encolar para lograr resultados bastante fascinantes para aquellos que saben dominarla bien.
+La terminal, como ya veremos en el capítulo de [IV. Diseño](/capitulos/04-diseno), es una de las interfaces más antiguas que existen. Una línea de comandos donde introducir órdenes y acciones con una serie de parámetros que se pueden encolar para lograr resultados bastante fascinantes para aquellos que saben dominarla bien.
 
 No subestimes el poder de un script de bash, sobre todo si lo combinas con otros comandos, scripts o CLIs que puedas tener. Automatiza procesos de despliegue, creación de PRs, migraciones de datos, … Además, se pueden compartir fácilmente, ya que no necesitan de más dependencias que los comandos que uses dentro de tu script.
 
