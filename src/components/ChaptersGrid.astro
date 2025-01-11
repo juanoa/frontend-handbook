@@ -22,7 +22,9 @@ const sortedPosts = posts.sort(
             <div class="title">
               {post.frontmatter.wip ? (
                 <div class="flex items-center gap-2">
-                  <span class="text-xl">{post.frontmatter.title}</span>
+                  <span class="text-xl color: text-gray-500">
+                    {post.frontmatter.title}
+                  </span>
                   <span class="text-[0.5rem] bg-gray-500 text-white px-2 py-0.5 rounded-full">
                     Coming soon
                   </span>
