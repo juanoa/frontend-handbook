@@ -9,9 +9,7 @@ export const get = async () => {
     frontmatterSchema: chapter,
   });
 
-  const sortedPosts = posts
-    .filter((p) => p.frontmatter.draft !== true)
-    .sort((a, b) => a.frontmatter.chapter - b.frontmatter.chapter);
+  const sortedPosts = posts.filter((p) => p.frontmatter.draft !== true);
 
   let baseUrl = SITE_URL;
   // removing trailing slash if found

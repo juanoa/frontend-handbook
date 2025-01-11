@@ -1,6 +1,6 @@
 ---
-title: "I. Introducción"
-chapter: 1
+title: "Introducción"
+chapter: "I"
 description: "Principios y fundamentos del Product Frontend Engineer"
 ---
 

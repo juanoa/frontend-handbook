@@ -1,6 +1,6 @@
 ---
-title: "IX. Conclusión"
-chapter: 9
+title: "Conclusión"
+chapter: "IX"
 description: "TBD"
 wip: true
 ---

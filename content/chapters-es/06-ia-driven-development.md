@@ -1,6 +1,6 @@
 ---
-title: "VI. IA Driven Development"
-chapter: 6
+title: "IA Driven Development"
+chapter: "VI"
 description: "TBD"
 wip: true
 ---

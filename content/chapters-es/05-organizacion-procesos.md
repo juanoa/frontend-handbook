@@ -1,6 +1,6 @@
 ---
-title: "V. Organización y procesos"
-chapter: 5
+title: "Organización y procesos"
+chapter: V
 description: "TBD"
 ---
 

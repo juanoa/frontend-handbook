@@ -7,16 +7,12 @@ const posts = await readAll({
   directory: "chapters-es",
   frontmatterSchema: chapter,
 });
-
-const sortedPosts = posts.sort(
-  (a, b) => a.frontmatter.chapter - b.frontmatter.chapter
-);
 ---
 
 <section slot="main">
-  <ul class="grid-cols-3">
+  <ul>
     {
-      sortedPosts.map((post) => {
+      posts.map((post) => {
         return (
           <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
             <div class="title">

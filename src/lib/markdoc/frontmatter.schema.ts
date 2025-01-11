@@ -19,7 +19,7 @@ const baseSchema = z.object({
   simplify this to just use the markdown schema.
 */
 export const chapter = baseSchema.extend({
-  chapter: z.number().int().positive(),
+  chapter: z.string(),
   wip: z.optional(z.boolean().default(false)),
   description: z.optional(z.string()),
   ogImagePath: z.optional(z.string()),
