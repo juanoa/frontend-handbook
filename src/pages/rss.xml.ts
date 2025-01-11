@@ -1,21 +1,17 @@
 import rss from "@astrojs/rss";
-import { blog } from "../lib/markdoc/frontmatter.schema";
+import { chapter } from "../lib/markdoc/frontmatter.schema";
 import { readAll } from "../lib/markdoc/read";
 import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL } from "../config";
 
 export const get = async () => {
   const posts = await readAll({
-    directory: "blog",
-    frontmatterSchema: blog,
+    directory: "chapters-es",
+    frontmatterSchema: chapter,
   });
 
   const sortedPosts = posts
     .filter((p) => p.frontmatter.draft !== true)
-    .sort(
-      (a, b) =>
-        new Date(b.frontmatter.date).valueOf() -
-        new Date(a.frontmatter.date).valueOf()
-    );
+    .sort((a, b) => a.frontmatter.chapter - b.frontmatter.chapter);
 
   let baseUrl = SITE_URL;
   // removing trailing slash if found

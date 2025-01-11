@@ -4,13 +4,13 @@ import { chapter } from "../lib/markdoc/frontmatter.schema";
 import { SITE_TITLE } from "../config";
 
 const posts = await readAll({
-  directory: "chapters",
+  directory: "chapters-es",
   frontmatterSchema: chapter,
 });
 
 const sortedPosts = posts
   .filter((p) => p.frontmatter.draft !== true)
-  .sort((a, b) => b.chapter - a.chapter);
+  .sort((a, b) => a.frontmatter.chapter - b.frontmatter.chapter);
 ---
 
 <section slot="main">
@@ -21,7 +21,7 @@ const sortedPosts = posts
           <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
             <div class="title">
               <a
-                href={`/chapters/${post.slug}`}
+                href={`/capitulos/${post.slug}`}
                 class="unset
                         transition-[background-size] duration-300
                         bg-gradient-to-r bg-left-bottom bg-no-repeat
