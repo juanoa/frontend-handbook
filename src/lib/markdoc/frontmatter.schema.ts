@@ -20,6 +20,7 @@ const baseSchema = z.object({
 */
 export const chapter = baseSchema.extend({
   chapter: z.number().int().positive(),
+  wip: z.optional(z.boolean().default(false)),
   description: z.optional(z.string()),
   ogImagePath: z.optional(z.string()),
   canonicalUrl: z.optional(z.string()),
