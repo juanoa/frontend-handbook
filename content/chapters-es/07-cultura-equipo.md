@@ -1,5 +1,5 @@
 ---
-title: "Cultura y equipo"
+title: "VII. Cultura y equipo"
 chapter: "VII"
 description: "TBD"
 wip: true

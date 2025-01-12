@@ -37,9 +37,9 @@ const ogImageAbsoluteUrl =
     : undefined;
 ---
 
-<ContentLayout title={`${frontmatter.chapter}. ${frontmatter.title}`}>
+<ContentLayout title={frontmatter.title}>
   <BlogPostMeta
-    title={`${frontmatter.chapter}. ${frontmatter.title}`}
+    title={frontmatter.chapter}
     description={frontmatter.description}
     pagePath={`/capitulos/${slug}`}
     ogImageAbsoluteUrl={ogImageAbsoluteUrl}

@@ -1,5 +1,5 @@
 ---
-title: "Diseño"
+title: "IV. Diseño"
 chapter: "IV"
 description: "Diseño como tercer pilar del Product Frontend Engineer"
 ---
@@ -8,7 +8,7 @@ En este capítulo vamos a profundizar un poco más en el diseño como tercer pil
 
 ![Diseño como una de las patas del Product Frontend Engineer](/images/design-pillar.png)
 
-# Utilitas y delectus
+## Utilitas y delectus
 
 En 1908, Adolf Loos decía que “el ornamento es delito” y que todos deberíamos reducir el diseño a su mínima expresión funcional. Loos fue precursor del Movimiento Moderno, influyendo de forma brutal a arquitectos como Le Corbusier y Mies van der Rohe, los máximos exponentes de este etapa artística que se adueñó de la arquitectura durante el siglo XX.
 
@@ -22,7 +22,7 @@ La maestría está en encontrar el sitio exacto entre estos dos conceptos. Es im
 
 En caso de que haya que desatascar un problema, depende del diseñador elegir hacia cual de los dos lados favorecer. Alvar Aalto, por ejemplo, se decantaba en estas situaciones por la parte estética, ya que pensaba que ante todo **los lugares estaban para ser habitados**, debían ser acogedores y no siempre tenían que servir a la función como máxima expresión.
 
-# Historia de las interfaces
+## Historia de las interfaces
 
 Las interfaces, tal y como las conocemos hoy en día, son algo nuevo, muy posterior al surgimiento de las primera aplicaciones y programas informáticos.
 
@@ -36,7 +36,7 @@ Desde esas primeras interfaces gráficas que veíamos en el primer Macintosh has
 
 ![De izquierda a derecha y de arriba a abajo: interfaz del primer Macintosh, SpaceJam, eBay y Flighty](/images/interface-examples.png)
 
-# Microinteracciones
+## Microinteracciones
 
 ¿Sabrías decir que diferencia un buen producto digital de otro excelente? Que resuelva un problema es importante como ya hemos visto, pero hay más. Que la interfaz sea bonita y sencilla de usar también debe ser requisito obligatorio, innegociable, pero vamos a fijarnos más en los detalles.
 
@@ -48,7 +48,7 @@ Una buena microinteracción debe de ser como una especia. Si te pasas y gana má
 
 Hay muchas librerías para llevar a cabo estas microinteracciones, aunque [Motion](https://motion.dev/) (ex-Framer Motion) es la más popular. **Fórmate en ella** y colabora con tu diseñador para ver dónde puede ser interesante añadirlas. Ten en cuenta que si estás en un gran proyecto, con un sistema de diseño detrás, puede que favorezca interfaces más planas y estáticas, mientras que otros pueden fomentar el movimiento y la animación. Tienes más información y ejemplos de microinteracciones en los [Recursos](/recursos).
 
-# Embrace beauty, reject mediocrity
+## Embrace beauty, reject mediocrity
 
 Como recordarás de la introducción, uno de los valores de los que hablamos era el *gusto por la sofisticación y lo exquisito*.
 
@@ -60,7 +60,7 @@ Para lograr esta misión, no todo depende exclusivamente del diseñador. Como ha
 
 Y ahí es donde entra en juego muchas veces el desarrollador, quien tiene la capacidad de cubrir todos esos huecos invisibles pero esenciales que hacen de la experiencia algo memorable. Desde la suavidad de una animación hasta la rapidez de una transición o la precisión en las interacciones, cada pequeño ajuste contribuye a crear una experiencia que no solo funcione bien, sino que sea un **placer para los sentidos**.
 
-# Herramientas de prototipado
+## Herramientas de prototipado
 
 Como verás en [Recursos](/recursos), hay varias herramientas de prototipado que podemos usar, aunque la que tiene la medalla de oro por excelencia es Figma. Cada vez son más las empresas, sobre todo *startups*, que valoran tener a **ingenieros frontend que sean capaces de crear un nuevo proyecto** y montar prototipos e interacciones para validar algunas pruebas de concepto. No necesitas convertirte en un experto en la herramienta, pero sí tener unos conocimientos básicos de cómo hacer layouts, prototipar, crear componentes, …
 

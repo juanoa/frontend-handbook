@@ -1,5 +1,5 @@
 ---
-title: "Producto"
+title: "III. Producto"
 chapter: "III"
 description: "Producto como segundo pilar del Product Frontend Engineer"
 ---
@@ -10,7 +10,7 @@ Como ingenieros debemos ayudar a dar respuesta a muchas de las incógnitas que s
 
 ![Producto como segundo pilar del Product Frontend Engineer](/images/product-pillar.png)
 
-# No te olvides de quién te da de comer
+## No te olvides de quién te da de comer
 
 La tecnología puede actuar en las empresas de dos formas: como principal activo que genera ingresos para la misma o como soporte que ayuda al negocio principal que genera el beneficio de la compañía. Ya sea de una forma u otra, la tecnología sirve para un propósito, para una función, y como ingenieros debemos conocerla.
 
@@ -18,7 +18,7 @@ En ocasiones tendrás la suerte de conocer a las personas que usan tu producto e
 
 No olvides nunca dónde está el dinero.
 
-# Mide lo que importa
+## Mide lo que importa
 
 John Doerr nos enseña en *Mide lo que importa* a cómo establecer OKR que nos ayuden a impulsar el crecimiento y el éxito de la empresa. Es normal cuando empezamos a utilizar herramientas que miden cómo las personas utilizan nuestra aplicación, tendamos a medir más de la cuenta, sin un propósito y lo que es peor, sin ningún tipo de control.
 
