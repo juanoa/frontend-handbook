@@ -6,6 +6,16 @@ description: "Principios y fundamentos del Product Frontend Engineer"
 
 Antes de empezar, es importante que te familiarices con los pilares, con los cimientos, que rigen este *handbook*. Y es que mi objetivo no es que sea la mejor guía o la más completa que puedas encontrar. Mi objetivo es que si compartimos los mismos valores, seamos capaces de encontrar la mejor manera de construir productos digitales de calidad y que la gente realmente ame usar.
 
+## Por qué y para quién es este handbook
+
+En estos años me he dado cuenta de la cantidad de ingenieros que hay que no son felices haciendo su trabajo. No son conscientes de que forman parte de una de las profesiones más bellas que existen, que están dando vida a ideas que solucionan problemas reales de las personas.
+
+Por desgracia, a día de hoy (escribo esto a enero de 2025) los incentivos de muchas de estas personas son únicamente monetarios y se aprovechan de una situación favorable en el sector, que no sabemos hasta cuando va a durar, saltando de equipo en equipo sin sentirse owner de ningún producto.
+
+Sin embargo, otras personas quieren darle la vuelta a la tortilla para comenzar a sentirse realmente partícipes de lo que están construyendo. En ocasiones necesitarán cambiar de producto para lograrlo y en otras será suficiente con un cambio de mentalidad. A estas últimas personas son a las que me dirijo, a aquellas que sienten que están en un buen producto y no saben cómo transformar su trabajo en un oficio con el que sentirse realizados.
+
+También me dirijo a aquellos que quieren empezar y que buscan una oportunidad. A vosotros os pido que por favor no os desesperéis. Hay empresas ahí fuera que buscan gente como vosotros, con talento y ganas de comerse el mundo.
+
 ## Propósito
 
 El propósito es la intención fundamental que impulsa nuestras acciones, aquello que da sentido y dirección a lo que hacemos. Es una fuerza transformadora que define el *por qué* y el *para qué* detrás de cada decisión, guiándonos hacia un estado deseado, ya sea personal, organizacional o comunitario. Más allá de ser un simple objetivo, el propósito tiene una dimensión profunda: es ambicioso, motivador y a menudo desafiante, capaz de inspirar cambios significativos en quienes lo persiguen.
