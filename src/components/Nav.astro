@@ -1,5 +1,14 @@
 ---
 import HeaderLink from "./HeaderLink.astro";
+import { readAll } from "../lib/markdoc/read";
+import { chapter } from "../lib/markdoc/frontmatter.schema";
+
+const posts = await readAll({
+  directory: "chapters-es",
+  frontmatterSchema: chapter,
+});
+
+const noWipPosts = posts.filter((post) => !post.frontmatter.wip);
 ---
 
 <Fragment>
@@ -29,7 +38,18 @@ import HeaderLink from "./HeaderLink.astro";
           <span class="fa-sr-only">Close mobile menu</span>
         </button>
         <ul class="unset flex flex-col text-text-bold gap-4 [&>li]:p-0 px-6">
-          <li><HeaderLink href="/">Capítulos</HeaderLink></li>
+          <li><HeaderLink href="/">Home</HeaderLink></li>
+          {
+            noWipPosts.map((post) => {
+              return (
+                <li>
+                  <HeaderLink href={`/capitulos/${post.slug}`}>
+                    {post.frontmatter.title}
+                  </HeaderLink>
+                </li>
+              );
+            })
+          }
         </ul>
       </div>
     </section>
