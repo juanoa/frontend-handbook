@@ -1,7 +1,7 @@
 ---
 title: "V. Organización y procesos"
 chapter: V
-description: "TBD"
+description: "Procesos y organización en la creación de productos digitales como Desarrollador Frontend"
 ---
 
 Equipos o individuos. Squads o *managers*. Departamentos o responsables. En la creación de productos digitales no estamos solos. De hecho, debemos (y necesitamos) colaborar entre nosotros para lograr objetivos. “*La unión hace la fuerza”*, dice el lema de algunos países. Si el trabajo individual precisa en ocasiones de organización, el colectivo lo necesita aun más.

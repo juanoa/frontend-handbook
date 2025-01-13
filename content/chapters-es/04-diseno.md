@@ -44,7 +44,7 @@ Las **microinteracciones** son aquellas animaciones y transiciones que pasan cas
 
 ![Ejemplos de microinteracciones](/images/micro-interactions.gif)
 
-Una buena microinteracción debe de ser como una especia. Si te pasas y gana más protagonismo del que se merece, arruinará tu aplicación. Si por el contrario te quedas corto o directamente no las usas, parecerá como que le falta algo a la aplicación.
+Una buena microinteracción debe de ser como una especia. Si te pasas y gana más protagonismo del que se merece, arruinará tu aplicación. Si por el contrario te quedas corto o directamente no las usas, parecerá como que le falta algo.
 
 Hay muchas librerías para llevar a cabo estas microinteracciones, aunque [Motion](https://motion.dev/) (ex-Framer Motion) es la más popular. **Fórmate en ella** y colabora con tu diseñador para ver dónde puede ser interesante añadirlas. Ten en cuenta que si estás en un gran proyecto, con un sistema de diseño detrás, puede que favorezca interfaces más planas y estáticas, mientras que otros pueden fomentar el movimiento y la animación. Tienes más información y ejemplos de microinteracciones en los [Recursos](/recursos).
 
