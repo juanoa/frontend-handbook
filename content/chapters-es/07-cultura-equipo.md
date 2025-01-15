@@ -1,7 +1,6 @@
 ---
 title: "Cultura y equipo"
 chapter: "VII"
-description: "TBD"
 wip: true
 ---
 

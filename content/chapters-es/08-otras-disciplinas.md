@@ -1,7 +1,6 @@
 ---
 title: "Otras disciplinas"
 chapter: "VIII"
-description: "TBD"
 wip: true
 ---
 
