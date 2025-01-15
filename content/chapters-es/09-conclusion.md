@@ -1,5 +1,5 @@
 ---
-title: "IX. Conclusión"
+title: "Conclusión"
 chapter: "IX"
 description: "Conclusiones finales y despedida"
 ---

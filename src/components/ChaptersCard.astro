@@ -1,0 +1,9 @@
+---
+const { chapter } = Astro.props
+---
+
+<div class="border-2 border-blue-300 rounded-lg p-5 flex flex-col gap-4 h-full">
+  <span class="text-6xl text-blue-100 font-black">{chapter.frontmatter.chapter}</span>
+  <h2 class="text-2xl underline underline-offset-4 decoration-blue-600">{chapter.frontmatter.title}</h2>
+  <p class="text-sm">{chapter.frontmatter.description}</p>
+</div>

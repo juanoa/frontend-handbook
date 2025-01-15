@@ -1,5 +1,5 @@
 ---
-title: "VIII. Otras disciplinas"
+title: "Otras disciplinas"
 chapter: "VIII"
 description: "TBD"
 wip: true

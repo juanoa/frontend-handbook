@@ -1,6 +1,6 @@
 ---
-title: "V. Organización y procesos"
-chapter: V
+title: "Organización y procesos"
+chapter: "V"
 description: "Procesos y organización en la creación de productos digitales como Desarrollador Frontend"
 ---
 

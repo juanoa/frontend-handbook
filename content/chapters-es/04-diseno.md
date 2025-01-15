@@ -1,5 +1,5 @@
 ---
-title: "IV. Diseño"
+title: "Diseño"
 chapter: "IV"
 description: "Diseño como tercer pilar del Product Frontend Engineer"
 ---
