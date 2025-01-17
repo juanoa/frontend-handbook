@@ -25,16 +25,33 @@ if (typeof slug !== "string") {
   throw Error(`slug should be string. Received: ${slug}`);
 }
 
-const { content, frontmatter } = await readOne({
+const chapters = await readAll({
   directory: "chapters-es",
-  slug,
   frontmatterSchema: chapter,
 });
 
-const ogImageAbsoluteUrl =
-  frontmatter.external !== true && frontmatter.ogImagePath
-    ? new URL(frontmatter.ogImagePath, SITE_URL).toString()
-    : undefined;
+const currentChapter = chapters.find((chapter) => chapter.slug === slug);
+
+if (!currentChapter) {
+  throw Error(`Chapter not found: ${slug}`);
+}
+
+const { content, frontmatter } = currentChapter;
+
+const ogImageAbsoluteUrl = frontmatter.ogImagePath
+  ? new URL(frontmatter.ogImagePath, SITE_URL).toString()
+  : undefined;
+
+const previousNotWipChapter = chapters
+  .sort((a, b) => a.frontmatter.chapter - b.frontmatter.chapter)
+  .slice(0, chapters.indexOf(currentChapter))
+  .reverse()
+  .find((chapter) => chapter.frontmatter.wip !== true);
+
+const nextNotWipChapter = chapters
+  .sort((a, b) => a.frontmatter.chapter - b.frontmatter.chapter)
+  .slice(chapters.indexOf(currentChapter) + 1)
+  .find((chapter) => chapter.frontmatter.wip !== true);
 ---
 
 <ContentLayout title={frontmatter.title}>
@@ -45,5 +62,35 @@ const ogImageAbsoluteUrl =
     ogImageAbsoluteUrl={ogImageAbsoluteUrl}
     slot="meta"
   />
-  <Renderer content={content} slot="content" />
+  <Fragment slot="content">
+    <Renderer content={content} />
+    <div class="grid grid-cols-1 md:grid-cols-2 auto-rows-fr gap-5 mt-12">
+      <div class="col-span-1 md:order-last">
+        {
+          nextNotWipChapter && (
+            <a
+              href={`/capitulos/${nextNotWipChapter.slug}`}
+              class="unset border-2 border-blue-300 rounded-lg p-5 h-full flex items-center justify-between"
+            >
+              {nextNotWipChapter.frontmatter.title}
+              <i class="fa-solid fa-chevron-right" />
+            </a>
+          )
+        }
+      </div>
+      <div class="col-span-1">
+        {
+          previousNotWipChapter && (
+            <a
+              href={`/capitulos/${previousNotWipChapter.slug}`}
+              class="unset border-2 border-blue-300 rounded-lg p-5 h-full flex items-center justify-between"
+            >
+              <i class="fa-solid fa-chevron-left" />
+              {previousNotWipChapter.frontmatter.title}
+            </a>
+          )
+        }
+      </div>
+    </div>
+  </Fragment>
 </ContentLayout>
