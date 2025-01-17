@@ -1,6 +1,7 @@
 ---
 import { readAll } from "../lib/markdoc/read";
 import { chapter } from "../lib/markdoc/frontmatter.schema";
+import ChaptersCard from "./ChaptersCard.astro";
 
 const posts = await readAll({
   directory: "chapters-es",
@@ -9,39 +10,16 @@ const posts = await readAll({
 ---
 
 <section slot="main">
-  <ul>
-    {
-      posts.map((post) => {
-        return (
-          <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
-            <div class="title">
-              {post.frontmatter.wip ? (
-                <div class="flex items-center gap-2">
-                  <span class="text-xl color: text-gray-500">
-                    {post.frontmatter.title}
-                  </span>
-                  <span class="text-[0.5rem] bg-gray-500 text-white px-2 py-0.5 rounded-full">
-                    WIP
-                  </span>
-                </div>
-              ) : (
-                <a
-                  href={`/capitulos/${post.slug}`}
-                  class="unset
-                      text-xl
-                      transition-[background-size] duration-300
-                      bg-gradient-to-r bg-left-bottom bg-no-repeat
-                      bg-[length:0%_55%] hover:bg-[length:100%_55%] dark:bg-[length:0%_2px] hover:dark:bg-[length:100%_2px]
-                      from-primary-blue to-primary-blue dark:from-primary-blue dark:to-primary-blue
-                    "
-                >
-                  {post.frontmatter.title}
-                </a>
-              )}
-            </div>
-          </li>
-        );
-      })
-    }
-  </ul>
+  <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 auto-rows-fr">
+    {posts.map((post) => {
+      if (post.frontmatter.wip) {
+        return <ChaptersCard chapter={post} />;
+      }
+      return (
+        <a class="unset" href={`/capitulos/${post.slug}`}>
+          <ChaptersCard chapter={post} />
+        </a>
+      );
+    })}
+  </div>
 </section>

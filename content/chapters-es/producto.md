@@ -1,5 +1,5 @@
 ---
-title: "III. Producto"
+title: "Producto"
 chapter: "III"
 description: "Producto como segundo pilar del Product Frontend Engineer"
 ---
