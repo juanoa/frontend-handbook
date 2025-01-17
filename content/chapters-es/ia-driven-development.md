@@ -1,5 +1,5 @@
 ---
 title: "IA Driven Development"
-chapter: "VI"
+chapter: 6
 wip: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Ingeniería"
-chapter: "II"
+chapter: 2
 description: "Ingeniería como primer pilar del Product Frontend Engineer"
 ---
 

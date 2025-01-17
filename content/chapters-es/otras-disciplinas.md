@@ -1,6 +1,6 @@
 ---
-title: "VIII. Otras disciplinas"
-chapter: "VIII"
+title: "Otras disciplinas"
+chapter: 8
 description: "TBD"
 wip: true
 ---

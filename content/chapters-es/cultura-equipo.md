@@ -1,6 +1,6 @@
 ---
 title: "Cultura y equipo"
-chapter: "VII"
+chapter: 7
 wip: true
 ---
 

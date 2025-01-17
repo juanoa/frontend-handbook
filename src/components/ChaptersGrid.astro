@@ -3,23 +3,48 @@ import { readAll } from "../lib/markdoc/read";
 import { chapter } from "../lib/markdoc/frontmatter.schema";
 import ChaptersCard from "./ChaptersCard.astro";
 
-const posts = await readAll({
+const chapters = await readAll({
   directory: "chapters-es",
   frontmatterSchema: chapter,
 });
 ---
 
-<section slot="main">
-  <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 auto-rows-fr">
-    {posts.map((post) => {
-      if (post.frontmatter.wip) {
-        return <ChaptersCard chapter={post} />;
-      }
-      return (
-        <a class="unset" href={`/capitulos/${post.slug}`}>
-          <ChaptersCard chapter={post} />
-        </a>
-      );
-    })}
+<section slot="main" class="grid grid-cols-1 gap-5">
+  <div class="grid grid-cols-1 gap-5 auto-rows-fr">
+    <ChaptersCard
+      chapter={chapters.find((chapter) => chapter.frontmatter.chapter === 1)}
+    />
+  </div>
+  <div
+    class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 auto-rows-fr"
+  >
+    <ChaptersCard
+      chapter={chapters.find((chapter) => chapter.frontmatter.chapter === 2)}
+    />
+    <ChaptersCard
+      chapter={chapters.find((chapter) => chapter.frontmatter.chapter === 3)}
+    />
+    <ChaptersCard
+      chapter={chapters.find((chapter) => chapter.frontmatter.chapter === 4)}
+    />
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-5 auto-rows-fr">
+    <ChaptersCard
+      chapter={chapters.find((chapter) => chapter.frontmatter.chapter === 5)}
+    />
+    <ChaptersCard
+      chapter={chapters.find((chapter) => chapter.frontmatter.chapter === 6)}
+    />
+    <ChaptersCard
+      chapter={chapters.find((chapter) => chapter.frontmatter.chapter === 7)}
+    />
+    <ChaptersCard
+      chapter={chapters.find((chapter) => chapter.frontmatter.chapter === 8)}
+    />
+  </div>
+  <div class="grid grid-cols-1 gap-5 auto-rows-fr">
+    <ChaptersCard
+      chapter={chapters.find((chapter) => chapter.frontmatter.chapter === 9)}
+    />
   </div>
 </section>
