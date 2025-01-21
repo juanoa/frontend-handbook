@@ -4,7 +4,7 @@
 export const SITE_TITLE = "Frontend Engineer Handbook 2025";
 export const SITE_DESCRIPTION =
   "El handbook para Product Frontend Enginneers que quieran dar el salto este 2025";
-export const TWITTER_HANDLE = "@juania_";
+export const TWITTER_HANDLE = "@juanoa_";
 export const MY_NAME = "Juan Otálora";
 
 // setup in astro.config.mjs
