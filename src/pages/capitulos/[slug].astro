@@ -70,7 +70,7 @@ const nextNotWipChapter = chapters
           nextNotWipChapter && (
             <a
               href={`/capitulos/${nextNotWipChapter.slug}`}
-              class="unset border-2 border-blue-300 rounded-lg p-5 h-full flex items-center justify-between"
+              class="unset border-2 border-blue-300 rounded-lg p-5 h-full flex items-center justify-between gap-3"
             >
               {nextNotWipChapter.frontmatter.title}
               <i class="fa-solid fa-chevron-right" />
@@ -83,7 +83,7 @@ const nextNotWipChapter = chapters
           previousNotWipChapter && (
             <a
               href={`/capitulos/${previousNotWipChapter.slug}`}
-              class="unset border-2 border-blue-300 rounded-lg p-5 h-full flex items-center justify-between"
+              class="unset border-2 border-blue-300 rounded-lg p-5 h-full flex items-center justify-between gap-3"
             >
               <i class="fa-solid fa-chevron-left" />
               {previousNotWipChapter.frontmatter.title}
