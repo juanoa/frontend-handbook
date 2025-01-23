@@ -46,7 +46,7 @@ Las **microinteracciones** son aquellas animaciones y transiciones que pasan cas
 
 Una buena microinteracción debe de ser como una especia. Si te pasas y gana más protagonismo del que se merece, arruinará tu aplicación. Si por el contrario te quedas corto o directamente no las usas, parecerá como que le falta algo.
 
-Hay muchas librerías para llevar a cabo estas microinteracciones, aunque [Motion](https://motion.dev/) (ex-Framer Motion) es la más popular. **Fórmate en ella** y colabora con tu diseñador para ver dónde puede ser interesante añadirlas. Ten en cuenta que si estás en un gran proyecto, con un sistema de diseño detrás, puede que favorezca interfaces más planas y estáticas, mientras que otros pueden fomentar el movimiento y la animación. Tienes más información y ejemplos de microinteracciones en los [Recursos](/recursos).
+Hay muchas librerías para llevar a cabo estas microinteracciones, aunque [Motion](https://motion.dev/) (ex-Framer Motion) es la más popular. **Fórmate en ella** y colabora con tu diseñador para ver dónde puede ser interesante añadirlas. Ten en cuenta que si estás en un gran proyecto, con un sistema de diseño detrás, puede que favorezca interfaces más planas y estáticas, mientras que otros pueden fomentar el movimiento y la animación. Tienes más información y ejemplos de microinteracciones en los recursos.
 
 ## Embrace beauty, reject mediocrity
 
@@ -56,12 +56,12 @@ Deberíamos estar concienciados en hacer las cosas bonitas y bellas, que den gus
 
 Ser capaces de provocar ese *efecto wow* en las personas que interactúan con nuestro producto, ese momento en el que las personas se sorprenden gratamente por la atención al detalle, por la fluidez de la experiencia o por lo intuitivo y agradable que resulta todo el proceso.
 
-Para lograr esta misión, no todo depende exclusivamente del diseñador. Como hablamos en el capítulo de [II. Ingeniería](/capitulos/02-ingenieria), la clave está en los detalles, esos pequeños elementos que, aunque a veces pasan desapercibidos, son los que realmente marcan la diferencia.
+Para lograr esta misión, no todo depende exclusivamente del diseñador. Como hablamos en el capítulo de [ingeniería](/capitulos/ingenieria), la clave está en los detalles, esos pequeños elementos que, aunque a veces pasan desapercibidos, son los que realmente marcan la diferencia.
 
 Y ahí es donde entra en juego muchas veces el desarrollador, quien tiene la capacidad de cubrir todos esos huecos invisibles pero esenciales que hacen de la experiencia algo memorable. Desde la suavidad de una animación hasta la rapidez de una transición o la precisión en las interacciones, cada pequeño ajuste contribuye a crear una experiencia que no solo funcione bien, sino que sea un **placer para los sentidos**.
 
 ## Herramientas de prototipado
 
-Como verás en [Recursos](/recursos), hay varias herramientas de prototipado que podemos usar, aunque la que tiene la medalla de oro por excelencia es Figma. Cada vez son más las empresas, sobre todo *startups*, que valoran tener a **ingenieros frontend que sean capaces de crear un nuevo proyecto** y montar prototipos e interacciones para validar algunas pruebas de concepto. No necesitas convertirte en un experto en la herramienta, pero sí tener unos conocimientos básicos de cómo hacer layouts, prototipar, crear componentes, …
+Como verás en los recursos, hay varias herramientas de prototipado que podemos usar, aunque la que tiene la medalla de oro por excelencia es Figma. Cada vez son más las empresas, sobre todo *startups*, que valoran tener a **ingenieros frontend que sean capaces de crear un nuevo proyecto** y montar prototipos e interacciones para validar algunas pruebas de concepto. No necesitas convertirte en un experto en la herramienta, pero sí tener unos conocimientos básicos de cómo hacer layouts, prototipar, crear componentes, …
 
 Si sois muy buenos desarrollando y conocéis bien el proyecto, **no descartes el código como herramienta para prototipar**. Mucha gente lo infravalora porque se piensa que es más lento que si usásemos otra herramienta como Figma, y puede que sea verdad, pero no tienes por qué seguir buenas prácticas de programación para este propósito. Incluso puedes usar fake data para no tener que implementar una llamada a un API. Además, en caso de validarlo y seguir adelante, tendrás una parte del trabajo hecho.

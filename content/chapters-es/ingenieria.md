@@ -16,7 +16,7 @@ Vamos a ver algunos principios fundamentales para aumentar la calidad de lo que 
 
 La maestría en cualquier disciplina se encuentra conociendo lo que hay bajo el capó, manchándose las manos de grasa para entender qué está pasando en cada momento. Puedes conformarte con ser un conductor, o incluso convertirte en uno muy bueno, pero cuando las cosas se pongan complicadas y empiecen a fallar, no serás autosuficiente para resolver el problema.
 
-Entender qué es el *Event Loop* de JavaScript, cómo funcionan las promesas, conocer las APIs del navegador o saber para qué sirve un DOM virtual son algunas de las cosas que podrías empezar a hacer. Te dejo más información en los [Recursos](/recursos).
+Entender qué es el *Event Loop* de JavaScript, cómo funcionan las promesas, conocer las APIs del navegador o saber para qué sirve un DOM virtual son algunas de las cosas que podrías empezar a hacer. Te dejo más información en los recursos.
 
 ## Mutaciones en el genoma
 
@@ -63,7 +63,7 @@ Conócelos para saber dar mejores soluciones a problemas que a primera vista par
 
 ## De vuelta a los orígenes
 
-La terminal, como ya veremos en el capítulo de [IV. Diseño](/capitulos/04-diseno), es una de las interfaces más antiguas que existen. Una línea de comandos donde introducir órdenes y acciones con una serie de parámetros que se pueden encolar para lograr resultados bastante fascinantes para aquellos que saben dominarla bien.
+La terminal, como ya veremos en el capítulo de diseño(/capitulos/diseno), es una de las interfaces más antiguas que existen. Una línea de comandos donde introducir órdenes y acciones con una serie de parámetros que se pueden encolar para lograr resultados bastante fascinantes para aquellos que saben dominarla bien.
 
 No subestimes el poder de un script de bash, sobre todo si lo combinas con otros comandos, scripts o CLIs que puedas tener. Automatiza procesos de despliegue, creación de PRs, migraciones de datos, … Además, se pueden compartir fácilmente, ya que no necesitan de más dependencias que los comandos que uses dentro de tu script.
 
