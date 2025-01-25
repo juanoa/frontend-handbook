@@ -8,7 +8,8 @@ const posts = await readAll({
   frontmatterSchema: chapter,
 });
 
-const noWipPosts = posts.filter((post) => !post.frontmatter.wip);
+const noWipPosts = posts.filter((post) => !post.frontmatter.wip)
+  .sort((a, b) => a.frontmatter.chapter - b.frontmatter.chapter)
 ---
 
 <Fragment>
