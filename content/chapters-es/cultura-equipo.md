@@ -8,7 +8,7 @@ Lo primero es entender que el **grupo está por encima del individuo**. Siempre.
 
 ## Pasión y amor por lo que haces
 
-La pasión es una cualidad individual que solo funciona cuando todos estáis en sintonía. Trabajar con pasión es hacer las cosas por algo más que un sueldo a fin de mes. Es querer dejar la interfaz pulida y ser *pixel perfect*. Es ir una milla más allá, como dicen los ingleses, y aportar más de lo que se esperaba para terminar teniendo un producto sublime que la gente realmente quiera utilizar.
+La pasión es una cualidad individual que solo funciona cuando todos estáis en sintonía. Trabajar con pasión es hacer las cosas por algo más que un sueldo a fin de mes. Es querer dejar la interfaz pulida y ser _pixel perfect_. Es ir una milla más allá, como dicen los ingleses, y aportar más de lo que se esperaba para terminar teniendo un producto sublime que la gente realmente quiera utilizar.
 
 Mucha gente suele obviar esta parte. Tiene miedo a meterle pasión a su trabajo, a ser juzgados por amar su profesión o a ser decepcionados por su proyecto. Todas estas visiones son válidas, pero nos estamos dejando una parte muy importante. No debemos sentirnos juzgados por aportar valor al mundo, por construir algo que nos hace crecer. Todo lo contrario, deberíamos estar orgullosos de hacerlo.
 

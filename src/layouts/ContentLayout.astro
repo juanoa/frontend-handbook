@@ -27,7 +27,7 @@ const formattedDate = new Date(date).toLocaleDateString("en-us", {
 });
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html class="theme-bubblegum" lang="es">
   <head>
     <!-- Global Metadata -->
@@ -42,13 +42,13 @@ const formattedDate = new Date(date).toLocaleDateString("en-us", {
     <AhrefsWebAnalytics />
   </head>
 
-  <body class="max-w-3xl mx-auto min-h-screen px-6 sm:px-8">
+  <body class="mx-auto min-h-screen max-w-3xl px-6 sm:px-8">
     <Header />
     <main id="main">
-      <section class="blog-post prose max-w-none prose-bubblegum">
+      <section class="blog-post prose prose-bubblegum max-w-none">
         <h1 class="m-0 mb-[0.25em]">
           <span
-            class="pl-6 relative block leading-[150%] after:absolute after:content-[''] after:w-2 after:h-full after:top-0 after:left-0 after:bg-primary-green"
+            class="relative block pl-6 leading-[150%] after:absolute after:top-0 after:left-0 after:h-full after:w-2 after:bg-primary-green after:content-['']"
           >
             {title}
           </span>

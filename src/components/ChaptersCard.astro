@@ -7,22 +7,22 @@ const { chapter } = Astro.props;
   href={!chapter.frontmatter.wip ? `/capitulos/${chapter.slug}` : "#"}
 >
   <div
-    class={`border-2 border-blue-300 rounded-lg p-5 flex flex-col gap-4 h-full ${
-      !chapter.frontmatter.wip ? "transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-blue-100/50 dark:hover:shadow-blue-500/20" : ""
-    } ${
-      chapter.frontmatter.wip ? "filter contrast-50" : ""
-    }`}
+    class={`border-2 border-blue-300 rounded-lg p-5  flex flex-col gap-4 h-full ${
+      !chapter.frontmatter.wip
+        ? "transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-blue-100/50 dark:hover:shadow-blue-500/20"
+        : ""
+    } ${chapter.frontmatter.wip ? "filter contrast-50" : ""}`}
   >
-    <span class="text-6xl text-blue-100 font-black"
-      >{chapter.frontmatter.chapter}</span
-    >
-    <h2 class="text-2xl underline underline-offset-4 decoration-blue-600">
+    <span class="text-6xl font-black text-blue-100">
+      {chapter.frontmatter.chapter}
+    </span>
+    <h2 class="text-2xl underline decoration-blue-600 underline-offset-4">
       {chapter.frontmatter.title}
     </h2>
     <p class="text-sm">{chapter.frontmatter.description}</p>
     {
       chapter.frontmatter.wip && (
-        <span class="bg-gray-300 text-gray-800 w-fit px-3 rounded-full text-sm">
+        <span class="w-fit rounded-full bg-gray-300 px-3 text-sm text-gray-800">
           WIP
         </span>
       )

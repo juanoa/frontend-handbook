@@ -6,7 +6,7 @@ type Props = {
 const { url } = Astro.props;
 ---
 
-<div class="relative not-prose flex flex-col items-center justify-center">
+<div class="not-prose relative flex flex-col items-center justify-center">
   <blockquote
     class="twitter-tweet"
     data-conversation="none"
@@ -23,5 +23,4 @@ const { url } = Astro.props;
   async
   defer
   src="https://platform.twitter.com/widgets.js"
-  charset="utf-8"
-></script>
+  charset="utf-8"></script>

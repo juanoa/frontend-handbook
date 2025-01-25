@@ -14,7 +14,7 @@ En 1908, Adolf Loos decía que “el ornamento es delito” y que todos debería
 
 Pese a la llegada del post-modernismo y otras corrientes que pedían la vuelta a la ornamentación que tanto criticaba Loos, el diseño de productos digitales de hoy en día **se sigue influyendo del Movimiento Moderno** del siglo pasado.
 
-Al diseñar hay una tensión constante entre dos conceptos muy importantes: la función y la emoción, **el *utilitas* y el *delectus***. Por ejemplo, Le Corbusier pintaba paredes de una misma habitación de diferentes colores para que la percepción del espacio fuera mayor, algo que horrorizaría a muchas personas. Todo por y para la función.
+Al diseñar hay una tensión constante entre dos conceptos muy importantes: la función y la emoción, **el _utilitas_ y el _delectus_**. Por ejemplo, Le Corbusier pintaba paredes de una misma habitación de diferentes colores para que la percepción del espacio fuera mayor, algo que horrorizaría a muchas personas. Todo por y para la función.
 
 ![La solución correcta casi siempre suele estar en un lugar intermedio entre el *utilitas* y el *delectus*.](/images/utilitas-delectus.png)
 
@@ -32,7 +32,7 @@ De ahí pasamos a las CLIs, aun usadas sobre todo por personas relacionadas con 
 
 De ahí saltamos a las primeras interfaces visuales tal y como las conocemos, **inventadas por Xerox PARC y popularizadas por [Apple](https://developer.apple.com/design/human-interface-guidelines) en el Macintosh**.
 
-Desde esas primeras interfaces gráficas que veíamos en el primer Macintosh hasta ahora hemos pasado por diferentes etapas y movimientos. En ocasiones, vimos estos cambios influídos por factores externos y otras veces por variables más relacionadas, como la concienciación en la accesibilidad y el **cambio de *desktop first* a *mobile first***. De este último salieron sistemas de diseños tan importantes como el [Material Design](https://m3.material.io/) de Google, donde todo se intentaba reducir a la última expresión para que fuera fácil de utilizar desde una pantalla tan pequeña como la de un smartphone.
+Desde esas primeras interfaces gráficas que veíamos en el primer Macintosh hasta ahora hemos pasado por diferentes etapas y movimientos. En ocasiones, vimos estos cambios influídos por factores externos y otras veces por variables más relacionadas, como la concienciación en la accesibilidad y el **cambio de _desktop first_ a _mobile first_**. De este último salieron sistemas de diseños tan importantes como el [Material Design](https://m3.material.io/) de Google, donde todo se intentaba reducir a la última expresión para que fuera fácil de utilizar desde una pantalla tan pequeña como la de un smartphone.
 
 ![De izquierda a derecha y de arriba a abajo: interfaz del primer Macintosh, SpaceJam, eBay y Flighty](/images/interface-examples.png)
 
@@ -50,7 +50,7 @@ Hay muchas librerías para llevar a cabo estas microinteracciones, aunque [Motio
 
 ## Embrace beauty, reject mediocrity
 
-Como recordarás de la introducción, uno de los valores de los que hablamos era el *gusto por la sofisticación y lo exquisito*.
+Como recordarás de la introducción, uno de los valores de los que hablamos era el _gusto por la sofisticación y lo exquisito_.
 
 Deberíamos estar concienciados en hacer las cosas bonitas y bellas, que den gusto ver y utilizar. No se trata solo de cumplir una función o resolver un problema, sino de **generar emociones positivas a través de lo que creamos**.
 
@@ -62,6 +62,6 @@ Y ahí es donde entra en juego muchas veces el desarrollador, quien tiene la cap
 
 ## Herramientas de prototipado
 
-Como verás en los recursos, hay varias herramientas de prototipado que podemos usar, aunque la que tiene la medalla de oro por excelencia es Figma. Cada vez son más las empresas, sobre todo *startups*, que valoran tener a **ingenieros frontend que sean capaces de crear un nuevo proyecto** y montar prototipos e interacciones para validar algunas pruebas de concepto. No necesitas convertirte en un experto en la herramienta, pero sí tener unos conocimientos básicos de cómo hacer layouts, prototipar, crear componentes, …
+Como verás en los recursos, hay varias herramientas de prototipado que podemos usar, aunque la que tiene la medalla de oro por excelencia es Figma. Cada vez son más las empresas, sobre todo _startups_, que valoran tener a **ingenieros frontend que sean capaces de crear un nuevo proyecto** y montar prototipos e interacciones para validar algunas pruebas de concepto. No necesitas convertirte en un experto en la herramienta, pero sí tener unos conocimientos básicos de cómo hacer layouts, prototipar, crear componentes, …
 
 Si sois muy buenos desarrollando y conocéis bien el proyecto, **no descartes el código como herramienta para prototipar**. Mucha gente lo infravalora porque se piensa que es más lento que si usásemos otra herramienta como Figma, y puede que sea verdad, pero no tienes por qué seguir buenas prácticas de programación para este propósito. Incluso puedes usar fake data para no tener que implementar una llamada a un API. Además, en caso de validarlo y seguir adelante, tendrás una parte del trabajo hecho.

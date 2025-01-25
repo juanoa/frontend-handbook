@@ -4,7 +4,7 @@ chapter: 1
 description: "Principios y fundamentos del Product Frontend Engineer"
 ---
 
-Antes de empezar, es importante que te familiarices con los pilares, con los cimientos, que rigen este *handbook*. Y es que mi objetivo no es que sea la mejor guía o la más completa que puedas encontrar. Mi objetivo es que si compartimos los mismos valores, seamos capaces de encontrar la mejor manera de construir productos digitales de calidad y que la gente realmente ame usar.
+Antes de empezar, es importante que te familiarices con los pilares, con los cimientos, que rigen este _handbook_. Y es que mi objetivo no es que sea la mejor guía o la más completa que puedas encontrar. Mi objetivo es que si compartimos los mismos valores, seamos capaces de encontrar la mejor manera de construir productos digitales de calidad y que la gente realmente ame usar.
 
 ## Por qué y para quién es este handbook
 
@@ -30,7 +30,7 @@ No somos simples desarrolladores, estamos construyendo el futuro de una sociedad
 
 ## Valores
 
-Los valores son los principios fundamentales que guían el comportamiento y las decisiones de los individuos. Actúan como brújulas morales que orientan nuestras acciones hacia lo que consideramos correcto o deseable. En lo profesional hay valores que creo que deberían estar presentes en cualquier Frontend Engineer y que ayudarán a entender mejor el resto del *handbook*.
+Los valores son los principios fundamentales que guían el comportamiento y las decisiones de los individuos. Actúan como brújulas morales que orientan nuestras acciones hacia lo que consideramos correcto o deseable. En lo profesional hay valores que creo que deberían estar presentes en cualquier Frontend Engineer y que ayudarán a entender mejor el resto del _handbook_.
 
 - **Crea productos que recomendarías a tus amigos**. Estás orgullo del trabajo que haces y crees que hay más gente que debería conocerlo.
 - **Gusto por la sofisticación y lo exquisito**. No estás contento si el producto no cumple con unos mínimos de calidad estéticos y funcionales.
@@ -61,4 +61,4 @@ En los tres siguientes capítulos profundizaremos en cada uno de estos tres tema
 
 ## Qué esperar de este handbook
 
-Esto no es un bootcamp de programación. Tampoco es una formación técnica avanzada. Esto es un manual *evergreen* para enfrentarte al día a día como Ingeniero Frontend. La idea es que te pueda ayudar a construir tus propios principios y procesos para que hagan de tu trabajo algo único, que lleve tu sello. De esta manera poder ser capaz de trascender mucho más allá de tu trabajo y poder sentirte orgulloso de los que construyes y haces día a día.
+Esto no es un bootcamp de programación. Tampoco es una formación técnica avanzada. Esto es un manual _evergreen_ para enfrentarte al día a día como Ingeniero Frontend. La idea es que te pueda ayudar a construir tus propios principios y procesos para que hagan de tu trabajo algo único, que lleve tu sello. De esta manera poder ser capaz de trascender mucho más allá de tu trabajo y poder sentirte orgulloso de los que construyes y haces día a día.

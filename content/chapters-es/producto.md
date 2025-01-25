@@ -4,9 +4,9 @@ chapter: 3
 description: "Producto como segundo pilar del Product Frontend Engineer"
 ---
 
-*¿Por qué?* y *¿para qué?* Son dos grandes preguntas que dan sentido y significado a lo que hacemos. No se trata solo de ejecutar, de lo que trata realmente ese juego es de resolver problemas reales de la humanidad, empoderándola para que siga creciendo y se siga desarrollando.
+_¿Por qué?_ y _¿para qué?_ Son dos grandes preguntas que dan sentido y significado a lo que hacemos. No se trata solo de ejecutar, de lo que trata realmente ese juego es de resolver problemas reales de la humanidad, empoderándola para que siga creciendo y se siga desarrollando.
 
-Como ingenieros debemos ayudar a dar respuesta a muchas de las incógnitas que se plantean en nuestro proyecto: ¿*qué vamos a hacer*? y ¿*cómo lo vamos a hacer*?
+Como ingenieros debemos ayudar a dar respuesta a muchas de las incógnitas que se plantean en nuestro proyecto: ¿_qué vamos a hacer_? y ¿_cómo lo vamos a hacer_?
 
 ![Producto como segundo pilar del Product Frontend Engineer](/images/product-pillar.png)
 
@@ -20,10 +20,10 @@ No olvides nunca dónde está el dinero.
 
 ## Mide lo que importa
 
-John Doerr nos enseña en *Mide lo que importa* a cómo establecer OKR que nos ayuden a impulsar el crecimiento y el éxito de la empresa. Es normal cuando empezamos a utilizar herramientas que miden cómo las personas utilizan nuestra aplicación, tendamos a medir más de la cuenta, sin un propósito y lo que es peor, sin ningún tipo de control.
+John Doerr nos enseña en _Mide lo que importa_ a cómo establecer OKR que nos ayuden a impulsar el crecimiento y el éxito de la empresa. Es normal cuando empezamos a utilizar herramientas que miden cómo las personas utilizan nuestra aplicación, tendamos a medir más de la cuenta, sin un propósito y lo que es peor, sin ningún tipo de control.
 
 Cada métrica tiene que tener un objetivo, un fin, un ciclo de vida en general. Es decir, tiene que ser creada con un propósito, analizada durante un periodo de tiempo y desechada cuando ya no sea de utilidad.
 
 Hablar con los equipos de producto y diseño ayuda a identificar estas necesidades de nuevas métricas. Reúnete con ellos para ver en qué están pensando y analizad los resultados en conjunto para ver qué cambios en la interfaz o en el flujo del usuario pueden mejorar la experiencia general de la aplicación.
 
-Luego hay métricas *evergreen*, que no caducan y que siempre debemos estar midiéndolas, como el porcentaje de peticiones fallidas al backend, datos demográficos de nuestros usuarios, páginas vistas, etc. La cantidad de estas métricas dependerá, como siempre, del contexto. No necesitarás tanta información si trabajas en una herramienta interna para una empresa que si estás desarrollando una aplicación para el público general.
+Luego hay métricas _evergreen_, que no caducan y que siempre debemos estar midiéndolas, como el porcentaje de peticiones fallidas al backend, datos demográficos de nuestros usuarios, páginas vistas, etc. La cantidad de estas métricas dependerá, como siempre, del contexto. No necesitarás tanta información si trabajas en una herramienta interna para una empresa que si estás desarrollando una aplicación para el público general.

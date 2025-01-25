@@ -12,11 +12,11 @@ Vamos a ver algunos principios fundamentales para aumentar la calidad de lo que 
 
 ## Under the hood
 
-*Under the hood* es una expresión inglesa que literalmente significa “bajo el capó”. En tecnología la usamos bastante para referirnos a todos esos detalles de implementación de los cuales nos abstraen ciertos protocolos o frameworks.
+_Under the hood_ es una expresión inglesa que literalmente significa “bajo el capó”. En tecnología la usamos bastante para referirnos a todos esos detalles de implementación de los cuales nos abstraen ciertos protocolos o frameworks.
 
 La maestría en cualquier disciplina se encuentra conociendo lo que hay bajo el capó, manchándose las manos de grasa para entender qué está pasando en cada momento. Puedes conformarte con ser un conductor, o incluso convertirte en uno muy bueno, pero cuando las cosas se pongan complicadas y empiecen a fallar, no serás autosuficiente para resolver el problema.
 
-Entender qué es el *Event Loop* de JavaScript, cómo funcionan las promesas, conocer las APIs del navegador o saber para qué sirve un DOM virtual son algunas de las cosas que podrías empezar a hacer. Te dejo más información en los recursos.
+Entender qué es el _Event Loop_ de JavaScript, cómo funcionan las promesas, conocer las APIs del navegador o saber para qué sirve un DOM virtual son algunas de las cosas que podrías empezar a hacer. Te dejo más información en los recursos.
 
 ## Mutaciones en el genoma
 
@@ -24,9 +24,9 @@ Las mutaciones en el genoma se generan debido a cambios en la secuencia de ADN, 
 
 Aunque nos asusten, han sido necesarias para que la naturaleza haya podido esculpir la figura del Ser Humano tal y como la conocemos.
 
-La teoría es sencilla. Al reproducirse una célula pueden generarse alteraciones en el ADN. Esta alteración puede no derivar en un gran cambio en el individuo, mientras que otras mutaciones pueden repercutir significativamente. Naturalmente, aquellas mutaciones positivas serán beneficiosas para la reproducción, mientras que las negativas generaran el efecto contrario. **Es la naturaleza iterando cruelmente sobre el *Homo Sapiens***.
+La teoría es sencilla. Al reproducirse una célula pueden generarse alteraciones en el ADN. Esta alteración puede no derivar en un gran cambio en el individuo, mientras que otras mutaciones pueden repercutir significativamente. Naturalmente, aquellas mutaciones positivas serán beneficiosas para la reproducción, mientras que las negativas generaran el efecto contrario. **Es la naturaleza iterando cruelmente sobre el _Homo Sapiens_**.
 
-Seguro que se te ocurren mil sitios donde aplicar esta práctica tan antigua como la vida misma (aunque algunos *agile coaches* la describan como “novedosa”).
+Seguro que se te ocurren mil sitios donde aplicar esta práctica tan antigua como la vida misma (aunque algunos _agile coaches_ la describan como “novedosa”).
 
 Cuando tengas que empezar un nuevo proyecto, **sal de tu zona de confort con alguna tecnología**. ¿Qué tal un nuevo framework de React? ¿Igual Tailwind tiene más sentido del que creía? ¿Podría reemplazar Redux por Zustand?
 
@@ -36,7 +36,7 @@ No olvides que no trabajas solo. No tomes la decisión en solitario y consulta a
 
 ## Arquitectura
 
-Siempre digo que los avances en frontend van años atrasados con respecto a los que van sucediendo en backend. Por suerte, la tendencia se está revirtiendo poco a poco y aunque el meme de que todos los lunes sale un nuevo *framework* de JavaScript no está tan lejos de ser real, el universo del desarrollo web y móvil está avanzando a pasos agigantados.
+Siempre digo que los avances en frontend van años atrasados con respecto a los que van sucediendo en backend. Por suerte, la tendencia se está revirtiendo poco a poco y aunque el meme de que todos los lunes sale un nuevo _framework_ de JavaScript no está tan lejos de ser real, el universo del desarrollo web y móvil está avanzando a pasos agigantados.
 
 Sin embargo, hay algo que sigo echando de menos y es la falta de madurez en cuanto a la arquitectura de muchos de los proyectos web. Tenemos conceptos como los microfrontends, los backend for frontends, patrones de diseño complejos como los que veréis en el siguiente apartado, pero sin embargo se sigue sin hablar mucho de arquitectura. Solo en grandes proyectos en los que múltiples equipos están involucrados.
 

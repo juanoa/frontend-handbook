@@ -34,7 +34,7 @@ El diseño, como hablábamos en un capítulo anterior del handbook, es una piedr
 - Definiendo unos foundations sólidos que nos ayudarán a ser mucho más ágiles a la hora de tomarnos ciertas licencias a la hora de implementar los diseños.
 - Entendiendo qué es lo que el diseñador quería representar y qué visión tiene sobre el producto a medio y largo plazo para ir trasladando todo este lenguaje al código del proyecto.
 
-En general, los roles de *Product Designer* y *Frontend Engineer* están más relacionados de lo que realmente parece. Tanto es así que hay muchas empresas donde están empezando a contratar perfiles que son capaces de asumir ambos roles para aumentar la velocidad de desarrollo, a costa, por supuesto, de una *performance* menos en ambas disciplinas.
+En general, los roles de _Product Designer_ y _Frontend Engineer_ están más relacionados de lo que realmente parece. Tanto es así que hay muchas empresas donde están empezando a contratar perfiles que son capaces de asumir ambos roles para aumentar la velocidad de desarrollo, a costa, por supuesto, de una _performance_ menos en ambas disciplinas.
 
 ## 3. Desarrollo
 

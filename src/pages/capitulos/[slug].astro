@@ -64,13 +64,13 @@ const nextNotWipChapter = chapters
   />
   <Fragment slot="content">
     <Renderer content={content} />
-    <div class="grid grid-cols-1 md:grid-cols-2 md:auto-rows-fr gap-5 mt-12">
+    <div class="mt-12 grid grid-cols-1 gap-5 md:auto-rows-fr md:grid-cols-2">
       <div class="col-span-1 md:order-last">
         {
           nextNotWipChapter && (
             <a
               href={`/capitulos/${nextNotWipChapter.slug}`}
-              class="unset border-2 border-blue-300 rounded-lg p-5 h-full flex items-center justify-between gap-3"
+              class="unset flex h-full items-center justify-between gap-3 rounded-lg border-2 border-blue-300 p-5"
             >
               {nextNotWipChapter.frontmatter.title}
               <i class="fa-solid fa-chevron-right" />
@@ -83,7 +83,7 @@ const nextNotWipChapter = chapters
           previousNotWipChapter && (
             <a
               href={`/capitulos/${previousNotWipChapter.slug}`}
-              class="unset border-2 border-blue-300 rounded-lg p-5 h-full flex items-center justify-between gap-3"
+              class="unset flex h-full items-center justify-between gap-3 rounded-lg border-2 border-blue-300 p-5"
             >
               <i class="fa-solid fa-chevron-left" />
               {previousNotWipChapter.frontmatter.title}
