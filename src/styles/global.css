@@ -10,7 +10,7 @@
 */
 @layer base {
   /* light theme */
-  .theme-bubblegum {
+  .theme {
     /* Custom #8AE6FB */
     --color-primary-blue: 138 230 251;
     /* Tailwind lime-300 #bef264 */
@@ -45,7 +45,7 @@
   }
 
   /* dark theme */
-  .theme-bubblegum.dark {
+  .theme.dark {
     /* Tailwind blue-500 #3b82f6 */
     --color-primary-blue: 59 130 246;
     /* Tailwind lime-300 #bef264 */

@@ -19,27 +19,22 @@ export interface Props {
   title: string;
 }
 
-const { title, date } = Astro.props;
-const formattedDate = new Date(date).toLocaleDateString("en-us", {
-  year: "numeric",
-  month: "short",
-  day: "numeric",
-});
+const { title } = Astro.props;
 ---
 
 <!doctype html>
-<html class="theme-bubblegum" lang="es">
+<html class="theme" lang="es">
   <head>
     <!-- Global Metadata -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="generator" content="Blogster" />
     <Favicon />
     <slot name="meta" />
     <GoogleFont />
     <ThemeScript />
     <FontAwesome />
     <AhrefsWebAnalytics />
+    <link rel="sitemap" href="/sitemap-index.xml" />
   </head>
 
   <body class="mx-auto min-h-screen max-w-3xl px-6 sm:px-8">

@@ -19,18 +19,18 @@ import AhrefsWebAnalytics from "./AhrefsWebAnalytics.astro";
 ---
 
 <!doctype html>
-<html class="theme-bubblegum" lang="es">
+<html class="theme" lang="es">
   <head>
     <!-- Global Metadata -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="generator" content="Blogster" />
     <Favicon />
     <slot name="meta" />
     <GoogleFont />
     <ThemeScript />
     <FontAwesome />
     <AhrefsWebAnalytics />
+    <link rel="sitemap" href="/sitemap-index.xml" />
   </head>
 
   <body class="mx-auto min-h-screen max-w-5xl px-6 sm:px-8">
@@ -39,6 +39,7 @@ import AhrefsWebAnalytics from "./AhrefsWebAnalytics.astro";
       <slot name="main" />
     </main>
     <Footer />
+    <script src="../scripts/smoothScroll.js"></script>
     <style>
       body {
         display: grid;
