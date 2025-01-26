@@ -60,6 +60,14 @@ Para lograr esta misión, no todo depende exclusivamente del diseñador. Como ha
 
 Y ahí es donde entra en juego muchas veces el desarrollador, quien tiene la capacidad de cubrir todos esos huecos invisibles pero esenciales que hacen de la experiencia algo memorable. Desde la suavidad de una animación hasta la rapidez de una transición o la precisión en las interacciones, cada pequeño ajuste contribuye a crear una experiencia que no solo funcione bien, sino que sea un **placer para los sentidos**.
 
+## Design debt
+
+El concepto de deuda técnica es ampliamente conocido por ingenieros y equipos de producto. Es fácil y común ver tareas de mejora técnica en los tablones de los equipos y cada vez es más fácil convencer a managers de la necesidad de pagar esta deuda cuanto antes.
+
+En el caso del diseño existe un concepto similar, la deuda de diseño (o design debt en inglés). Al igual que ocurre en los desarrollos, **diferentes factores pueden afectar a la calidad del diseño de un producto**, algunos de ellos se podrían haber evitados, mientras que otros son el resultado de la propia iteración del producto que se va desarrollando.
+
+No es nuestro trabajo identificar ni resolver este problema, pero esta bién conocerlo. Si queréis leer más, os dejo este [artículo](https://linear.app/blog/a-design-reset#design-debt-is-real) de cómo se enfrentó Linear a este problema en 2024.
+
 ## Herramientas de prototipado
 
 Como verás en los recursos, hay varias herramientas de prototipado que podemos usar, aunque la que tiene la medalla de oro por excelencia es Figma. Cada vez son más las empresas, sobre todo _startups_, que valoran tener a **ingenieros frontend que sean capaces de crear un nuevo proyecto** y montar prototipos e interacciones para validar algunas pruebas de concepto. No necesitas convertirte en un experto en la herramienta, pero sí tener unos conocimientos básicos de cómo hacer layouts, prototipar, crear componentes, …
